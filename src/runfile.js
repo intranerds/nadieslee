@@ -1,6 +1,7 @@
 // import { run } from 'runjs'
 import 'babel-polyfill'
-import { extraerPalabras as ep } from './tasks/textos'
+// import { extraerPalabras as ep } from './tasks/textos'
+import { buscarSignificado as ep } from './tasks/diccionario'
 
 export const extraerPalabras = () => {
   ep()

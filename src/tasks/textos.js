@@ -29,9 +29,12 @@ export const crearEstructura = async () => {
   return data
 }
 
-const puntuactionMarksRegExp =
-  // eslint-disable-next-line max-len no-useless-escape
-  /[\.’'\[\](){}⟨⟩:,،、‒–—―…!.‹›«»‐\-?‘’“”'";/⁄·\&*@\•^†‡°”¡¿※#№÷×ºª%‰+−=‱¶′″‴§~_|‖¦©℗®℠™¤₳฿₵¢₡₢$₫₯֏₠€ƒ₣₲₴₭₺₾ℳ₥₦₧₱₰£៛₽₹₨₪৳₸₮₩¥]/g
+const puntuactionMarksRegExp = new RegExp(
+  // eslint-disable-next-line no-useless-escape
+  '[\.’\'\[\](){}⟨⟩:,،、‒–—―…!.‹›«»‐\-?‘’“”\'";/⁄·\&*@\•^†‡°”¡¿' +
+  '※#№÷×ºª%‰+−=‱¶′″‴§~_|‖¦©℗®℠™¤₳฿₵¢₡₢$₫₯֏₠€ƒ₣₲₴₭₺₾ℳ₥₦₧₱₰£៛₽₹₨₪৳₸₮₩¥]',
+  'ig'
+)
 
 export const extraerPalabras = async () => {
   const data = await crearEstructura()

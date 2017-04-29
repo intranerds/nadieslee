@@ -1,13 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
+import './app/config/ReactotronConfig'
 import { AppRegistry } from 'react-native'
-// eslint-disable-next-line import/default
-import codePush from 'react-native-code-push'
+import App from './app/containers/App'
 
-import NadiesLee from './lib/components/Index'
-
-AppRegistry.registerComponent('NadiesLee', () => codePush(NadiesLee))
+AppRegistry.registerComponent('NadiesLee', () => App)

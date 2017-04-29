@@ -4,8 +4,6 @@
   <dict>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
-    <key>CFBundleDisplayName</key>
-    <string>NadiesLee</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
@@ -51,27 +49,22 @@
         </dict>
       </dict>
     </dict>
-    <key>CodePushDeploymentKey</key>
-    <string>deployment-key-here</string>
     <key>UIAppFonts</key>
     <array>
-      <string>Entypo.ttf</string>
-      <string>EvilIcons.ttf</string>
-      <string>FontAwesome.ttf</string>
-      <string>Foundation.ttf</string>
-      <string>Ionicons.ttf</string>
-      <string>MaterialCommunityIcons.ttf</string>
-      <string>MaterialIcons.ttf</string>
-      <string>Octicons.ttf</string>
-      <string>SimpleLineIcons.ttf</string>
-      <string>Zocial.ttf</string>
       <string>Andale Mono.ttf</string>
       <string>Arial Black.ttf</string>
       <string>Arial.ttf</string>
       <string>Comic Sans MS.ttf</string>
       <string>Courier New.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>Foundation.ttf</string>
       <string>Georgia.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialIcons.ttf</string>
       <string>Microsoft Sans Serif.ttf</string>
+      <string>Octicons.ttf</string>
       <string>Roboto_medium.ttf</string>
       <string>Roboto.ttf</string>
       <string>rubicon-icon-font.ttf</string>
@@ -91,6 +84,17 @@
       <string>SF-UI-Text-Regular.otf</string>
       <string>Skia.ttf</string>
       <string>Times New Roman.ttf</string>
+      <string>Zocial.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Zocial.ttf</string>
     </array>
   </dict>
 </plist>

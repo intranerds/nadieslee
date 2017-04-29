@@ -6,7 +6,7 @@ import _ from 'lodash'
 import S from 'string'
 import frontMatter from 'front-matter'
 
-import diccionario from '../lib/content/diccionario'
+import diccionario from '../app/content/diccionario'
 
 import { readFiles } from './files'
 

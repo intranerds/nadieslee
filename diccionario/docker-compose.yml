@@ -1,0 +1,6 @@
+version: "2"
+services:
+  diccionario:
+    build: ./
+    # ports:
+    #   - "8069:8069"

@@ -5,45 +5,14 @@ anio:
 link:
 ---
 1. BIS DAT QUI NON CITO DAT (El que no da pronto, da dos veces)
-En casa de los Bubb reinaba la alegría.
-Durante diez largos años, Ephraim y Sophonisba Bubb se habían
-lamentado en vano de su soledad. Inaccesibles al desaliento, habían
-contemplado una y otra vez las tiendas de ropa de bebé, y habían fijado
-sus miradas deseosas en los almacenes de los mimbreros, donde las
-cunas colgaban en tentadoras filas. En vano habían rezado, y suspirado,
-y farfullado, y deseado, y esperado, y llorado, sin recibir nunca ni el más
-mínimo atisbo de esperanza por parte de su médico de cabecera.
-Pero ahora, al fin el tan deseado momento había llegado. Un mes había
-sucedido al otro con exasperante lentitud, y los días habían seguido
-perezosamente su curso. Los mese se convirtieron en semanas; las
-semanas menguaron hasta no ser más que días; los días se redujeron a
-horas; las horas devinieron minutos; los minutos se desvanecieron
-lentamente y ya no faltaban sino segundos.
+En casa de los Bubb reinaba la alegría. Durante diez largos años, Ephraim y Sophonisba Bubb se habían lamentado en vano de su soledad. Inaccesibles al desaliento, habían contemplado una y otra vez las tiendas de ropa de bebé, y habían fijado sus miradas deseosas en los almacenes de los mimbreros, donde las cunas colgaban en tentadoras filas. En vano habían rezado, y suspirado, y farfullado, y deseado, y esperado, y llorado, sin recibir nunca ni el más mínimo atisbo de esperanza por parte de su médico de cabecera. Pero ahora, al fin el tan deseado momento había llegado. Un mes había sucedido al otro con exasperante lentitud, y los días habían seguido perezosamente su curso. Los mese se convirtieron en semanas; las semanas menguaron hasta no ser más que días; los días se redujeron a horas; las horas devinieron minutos; los minutos se desvanecieron lentamente y ya no faltaban sino segundos.
 
-Ephraim Bubb se sentó encogido en la escalera e intengó agudizar el oído
-preparándose para escuchar el compás de la maravillosa música que sin
-duda surgiría de los labios de su primogénito. En la casa reinaba el
-silencio, ese silencio mortal propio de la clama que precede al ciclón. ¡Ay!
-Ephraim Bubb, poco podías tú imaginar que el momento que se
-aproxima podría destuir para siempre tu pacífica y feliz existencia, y
-descubrir ante tus ansiosos ojos losportales de ese maravilloso país en el
-que la infancia reina suprema, y en la que al niño tirano le basta con un
-ademán de su manita y el tiple de su vocecita para sentenciar a sus
-padres a la tumba mortal bajo el foso del castillo. Palideces tan pronto
-como te asalta la idea. ¡Como tiemblas al descubrirte al borde del
-abismo! ¡Como desearías poder cambiar el pasado!
-¡Pero escucha! Para bien o para mal, la suerte está echada. Los largos
-años de rezos y súplicas han llegado a su fin. Desde el interior de la
-habitación llega un llanto agudo, que se repite poco después. ¡Ah!Ephraim, ese llanto es el tenue esfuerzo de unos labios infantiles -
-inhabituados todavía a nuestra ruda y mundana forma de hablar- que
-intentan pronunciar la palabra <<padre>>. Precisamente en el momento
-más vívido de tu ensoñación, olvidas todas tus dudas; y cuando el doctor
-avanza hacia ti como portador de la felicidad, te encuentra radiante de
-satisfacción
-recién
-adquirida.
--Mi querido amigo, permítame que le felicite... por partida doble. ¡Señor
-Bubb, es usted padre de dos gemelos!
+Ephraim Bubb se sentó encogido en la escalera e intengó agudizar el oído preparándose para escuchar el compás de la maravillosa música que sin duda surgiría de los labios de su primogénito. En la casa reinaba el silencio, ese silencio mortal propio de la clama que precede al ciclón. ¡Ay! Ephraim Bubb, poco podías tú imaginar que el momento que se aproxima podría destuir para siempre tu pacífica y feliz existencia, y descubrir ante tus ansiosos ojos losportales de ese maravilloso país en el que la infancia reina suprema, y en la que al niño tirano le basta con un ademán de su manita y el tiple de su vocecita para sentenciar a sus padres a la tumba mortal bajo el foso del castillo. Palideces tan pronto como te asalta la idea. ¡Como tiemblas al descubrirte al borde del abismo! ¡Como desearías poder cambiar el pasado!
+
+¡Pero escucha! Para bien o para mal, la suerte está echada. Los largos años de rezos y súplicas han llegado a su fin. Desde el interior de la habitación llega un llanto agudo, que se repite poco después. ¡Ah!Ephraim, ese llanto es el tenue esfuerzo de unos labios infantiles - inhabituados todavía a nuestra ruda y mundana forma de hablar- que intentan pronunciar la palabra <<padre>>. Precisamente en el momento más vívido de tu ensoñación, olvidas todas tus dudas; y cuando el doctor avanza hacia ti como portador de la felicidad, te encuentra radiante de satisfacción recién adquirida.
+
+-Mi querido amigo, permítame que le felicite... por partida doble. ¡Señor Bubb, es usted padre de dos gemelos!
+
 2. DÍAS DE ALCIÓN
 Los gemelos eran los niños más buenos que jamás habían existido... o
 eso decían al menos los cogonoscenti, y los padres no tardaron en

@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import _ from 'lodash'
 import Yaml from 'json2yaml'
 
 function promiseAllP(items, block) {
@@ -53,4 +54,19 @@ export function readFiles(dirname) {
 export function saveAsYaml(content, filepath) {
   const contentAsYaml = Yaml.stringify(content)
   fs.writeFileSync(filepath, contentAsYaml)
+}
+
+export function saveAsJs(content, filepath) {
+  const contentAsJsonStr = content
+  if (!_.isString(contentAsJsonStr)) {
+    const contentAsJsonStr = JSON.stringify(content, null, 2)
+  }
+
+  fs.writeFileSync(
+    filepath,
+`
+// AUTOGENERADO - No editar
+export default ${contentAsJsonStr}
+`
+  )
 }

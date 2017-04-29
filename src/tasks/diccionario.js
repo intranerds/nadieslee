@@ -2,6 +2,7 @@ import request from 'request-promise'
 import cheerio from 'cheerio'
 import _ from 'lodash'
 import sort from 'sort-keys'
+import Yaml from 'yamljs'
 
 import { extraerPalabras, puntuactionMarksRegExp } from './textos'
 
@@ -82,7 +83,7 @@ export const buscarSignificado = async palabra => {
           .replace(puntuactionMarksRegExp, '')
           .trim()
         // FIXME: linkear al significado real
-        console.log('--- link to', link)
+        console.info('--- link to', link)
       }
       currSig.acepciones.push(acepcion)
     }
@@ -115,4 +116,9 @@ export const crear = async () => {
     diccionario[palabra] = significados
   })
   return sort(diccionario)
+}
+
+export const leerAsJson = () => {
+  const dicc = Yaml.load(process.env.DICCIONARIO_FILEPATH)
+  return dicc
 }

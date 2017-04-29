@@ -5,6 +5,9 @@ import path from 'path'
 import _ from 'lodash'
 import S from 'string'
 import frontMatter from 'front-matter'
+
+import diccionario from '../lib/content/diccionario'
+
 import { readFiles } from './files'
 
 require('dotenv').config()
@@ -16,19 +19,27 @@ export const getStopWords = () => {
   return text.split('\n')
 }
 
-export const crearEstructura = async () => {
-  const data = {}
-  const files = await readFiles(process.env.TEXTOS_FOLDER)
-  _.each(files, f => {
-    const fm = frontMatter(f.contents)
-    const { body, attributes } = fm
-    const id = S(attributes.titulo).slugify().s
+const mdToJson = f => {
+  const fm = frontMatter(f.contents)
+  const { body, attributes } = fm
+  const id = S(attributes.titulo).slugify().s
 
-    data[id] = _.extend(
+  return {
+    slug: id,
+    content: _.extend(
       { id },
       attributes,
       { body }
     )
+  }
+}
+
+export const crearEstructura = async () => {
+  const data = {}
+  const files = await readFiles(process.env.TEXTOS_FOLDER)
+  _.each(files, f => {
+    const { slug, content } = mdToJson(f)
+    data[slug] = content
   })
   return data
 }
@@ -51,4 +62,36 @@ export const extraerPalabras = async () => {
   })
 
   return palabras
+}
+
+const tokenize = f => {
+  let code = ''
+  const { slug, content } = mdToJson(f)
+  const parrafos = content.body.split('\n\n')
+  for (let i = 0; i < parrafos.length; i++) {
+    const p = parrafos[i]
+    const tokens = p.split(' ')
+    const pcode = tokens.map(p => {
+      const limpio = p.replace(puntuactionMarksRegExp, '')
+      if (Object.prototype.hasOwnProperty.call(diccionario, limpio)) {
+        return `<T><W it="${p}" /></T> `
+      }
+      return `<T>${p}</T> `
+    })
+    code += `
+<P>${pcode.join('')}</P> 
+    `
+  }
+  return { slug, code }
+}
+
+export const preprocesar = async () => {
+  const data = {}
+  const files = await readFiles(process.env.TEXTOS_FOLDER)
+  _.each(files, f => {
+    const { slug, code } = tokenize(f)
+    data[slug] = data[slug] || ''
+    data[slug] += code
+  })
+  return data
 }

@@ -83,7 +83,8 @@
     },
     "ignore": [
       "android",
-      "ios"
+      "ios",
+      "lib/content/**/*"
     ]
   },
   "babel": {
@@ -121,7 +122,8 @@
     "runjs": "^3.2.1",
     "sort-keys": "^1.1.2",
     "string": "^3.3.3",
-    "xo": "^0.18.1"
+    "xo": "^0.18.1",
+    "yamljs": "^0.2.10"
   },
   "jest": {
     "preset": "react-native"

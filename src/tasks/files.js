@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import Yaml from 'json2yaml'
 
 function promiseAllP(items, block) {
   const ps = []
@@ -18,10 +19,15 @@ function promiseAllP(items, block) {
 export function readFiles(dirname) {
   return new Promise((resolve, reject) => {
     fs.readdir(dirname, (err, filenames) => {
+      const files = filenames.filter(function(file) {
+        if(file.indexOf(".")>-1) {
+          return file
+        }
+      })
       if (err) {
         return reject(err)
       }
-      promiseAllP(filenames,
+      promiseAllP(files,
         (filename, index, resolve, reject) => {
           fs.readFile(
             path.resolve(dirname, filename), 'utf-8',
@@ -41,4 +47,9 @@ export function readFiles(dirname) {
         })
     })
   })
+}
+
+export function saveAsYaml(content, filepath) {
+  const contentAsYaml = Yaml.stringify(content)
+  fs.writeFileSync(filepath, contentAsYaml)
 }

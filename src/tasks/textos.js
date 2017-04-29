@@ -1,3 +1,5 @@
+/* eslint-disable no-useless-escape */
+
 import fs from 'fs'
 import path from 'path'
 import _ from 'lodash'
@@ -5,16 +7,18 @@ import S from 'string'
 import frontMatter from 'front-matter'
 import { readFiles } from './files'
 
+require('dotenv').config()
+
 export const getStopWords = () => {
   const text = fs.readFileSync(
-    path.join(__dirname, './stopwords.txt')
+    path.join(process.env.STOPWORDS_FILEPATH)
   ).toString()
   return text.split('\n')
 }
 
 export const crearEstructura = async () => {
   const data = {}
-  const files = await readFiles(path.join(__dirname, '../../content/textos/'))
+  const files = await readFiles(process.env.TEXTOS_FOLDER)
   _.each(files, f => {
     const fm = frontMatter(f.contents)
     const { body, attributes } = fm
@@ -29,12 +33,9 @@ export const crearEstructura = async () => {
   return data
 }
 
-const puntuactionMarksRegExp = new RegExp(
-  // eslint-disable-next-line no-useless-escape
-  '[\.’\'\[\](){}⟨⟩:,،、‒–—―…!.‹›«»‐\-?‘’“”\'";/⁄·\&*@\•^†‡°”¡¿' +
-  '※#№÷×ºª%‰+−=‱¶′″‴§~_|‖¦©℗®℠™¤₳฿₵¢₡₢$₫₯֏₠€ƒ₣₲₴₭₺₾ℳ₥₦₧₱₰£៛₽₹₨₪৳₸₮₩¥]',
-  'ig'
-)
+export const puntuactionMarksRegExp =
+  // eslint-disable-next-line max-len
+  /[\.’'\[\](){}⟨⟩:,،、‒–—―…!.‹›«»‐\-?‘’“”\'";⁄·\&*@\•^†‡°”¡¿※#№÷×ºª%‰+−=‱¶′″‴§~_|‖¦©℗®℠™¤₳฿₵¢₡₢$₫₯֏₠€ƒ₣₲₴₭₺₾ℳ₥₦₧₱₰£៛₽₹₨₪৳₸₮₩¥]/ig
 
 export const extraerPalabras = async () => {
   const data = await crearEstructura()
@@ -49,5 +50,5 @@ export const extraerPalabras = async () => {
     palabras = _.union(palabras, allWords)
   })
 
-  console.log(palabras)
+  return palabras
 }

@@ -19,8 +19,9 @@ function promiseAllP(items, block) {
 export function readFiles(dirname) {
   return new Promise((resolve, reject) => {
     fs.readdir(dirname, (err, filenames) => {
-      const files = filenames.filter(function(file) {
-        if(file.indexOf(".")>-1) {
+      // eslint-disable-next-line array-callback-return
+      const files = filenames.filter(file => {
+        if (file.indexOf('.') > -1) {
           return file
         }
       })

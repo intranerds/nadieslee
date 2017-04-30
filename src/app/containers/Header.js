@@ -4,10 +4,11 @@ import {
   Container, Content, Header as NBHeader, Title, Button,
   Left, Right, Body, Icon
 } from 'native-base'
+import { connect } from 'react-redux'
 
-class Header extends Component {
+class HeaderComponent extends Component {
   render() {
-    const { titulo } = this.props
+    const { titulo, reducirFont, agrandarFont } = this.props
     return (
       <NBHeader>
         <Left>
@@ -18,12 +19,43 @@ class Header extends Component {
         <Body style={{flex: 3}}>
           <Title>{titulo}</Title>
         </Body>
-        <Right />
+        <Left>
+            <Button transparent onPress={() => reducirFont()}>
+              <Icon style={{fontSize: 30}} name="ios-remove" />
+            </Button>
+        </Left>
+        <Left>
+          <Button transparent onPress={() => agrandarFont()}>
+            <Icon style={{fontSize: 30}} name="ios-add" />
+          </Button>
+        </Left>
       </NBHeader>
     )
   }
 }
 
-Header.contextTypes = {drawer: React.PropTypes.object}
+HeaderComponent.contextTypes = {drawer: React.PropTypes.object}
 
-export default Header
+const reducirFont = (palabra) => {
+  return {
+    type: 'REDUCIR_FONT'
+  }
+}
+
+const agrandarFont = (palabra) => {
+  return {
+    type: 'AGRANDAR_FONT'
+  }
+}
+
+// wraps dispatch to create nicer functions to call within our component
+const mapDispatchToProps = (dispatch) => ({
+  reducirFont: () => {
+    dispatch(reducirFont())
+  },
+  agrandarFont: () => {
+    dispatch(agrandarFont())
+  }
+})
+
+export default connect(null, mapDispatchToProps)(HeaderComponent)

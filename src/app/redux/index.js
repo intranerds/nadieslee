@@ -13,6 +13,15 @@ export default () => {
         state = action.palabra
       }
       return state
+    },
+    fontSize(state = 1.1, action) {
+      if (action.type === 'AGRANDAR_FONT') {
+        state *= 1.2
+      }
+      if (action.type === 'REDUCIR_FONT') {
+        state /= 1.2
+      }
+      return state
     }
   })
 

@@ -17,21 +17,22 @@ const mostrarSignificado = (palabra) => {
   }
 }
 
-const style = {
+const style = (fontSize) => ({
   textDecorationLine: "underline",
   textDecorationStyle: "dotted",
   textDecorationColor: "#ccc",
-  fontSize: 20
-}
+  fontSize
+})
 
-const PalabraComponent = ({ it,  mostrarSignificado}) => {
+const PalabraComponent = ({ it,  mostrarSignificado, fontSize}) => {
   return (
-    <Text style={style} onPress={() => mostrarSignificado(it)}>{it}</Text>
+    <Text style={style(20*fontSize)} onPress={() => mostrarSignificado(it)}>{it}</Text>
   )
 }
 
 const mapStateToProps = (state) => ({
-  palabraMostrando: state.palabraMostrando
+  palabraMostrando: state.palabraMostrando,
+  fontSize: state.fontSize
 })
 
 // wraps dispatch to create nicer functions to call within our component

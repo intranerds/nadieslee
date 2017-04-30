@@ -2,9 +2,16 @@ import React from 'react'
 import {
   Text
 } from 'native-base'
+import { connect } from 'react-redux'
 
-export default ({ children }) => {
+const TokenComponent = ({ children, fontSize }) => {
   return (
-    <Text style={{fontSize: 20}}>{children}</Text>
+    <Text style={{ fontSize: 20*fontSize }}>{children}</Text>
   )
 }
+
+const mapStateToProps = (state) => ({
+  fontSize: state.fontSize
+})
+
+export default connect(mapStateToProps, null)(TokenComponent)

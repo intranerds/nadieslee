@@ -19,8 +19,8 @@ class NavigationRouter extends Component {
     return (
       <Router>
         <Scene key='drawer' component={NavigationDrawer} open={false}>
-          <Scene key='launchScreen' component={LaunchScreen} title='LaunchScreen' initial />
-          <Scene key='indiceScreen' component={IndiceScreen}/>
+          <Scene key='launchScreen' component={LaunchScreen} title='LaunchScreen' />
+          <Scene key='indiceScreen' component={IndiceScreen} initial />
           <Scene key='aboutUsScreen' component={AboutUsScreen}/>
           <Scene key='textoScreen' component={TextoScreen}/>
         </Scene>

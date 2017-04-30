@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-import { View, Text, Container, Content } from 'native-base'
+import { View, Text, Container, Content, Card, CardItem } from 'native-base'
 
 import Modal from 'react-native-modalbox'
 
@@ -21,7 +21,7 @@ const puntuactionMarksRegExp =
 
 const significado = p => {
   const palabra = p.replace(puntuactionMarksRegExp, '')
-  if (diccionario[palabra]) {
+  if (diccionario[palabra] && diccionario[palabra][0]) {
     return (
       <Content padder>
         <Text style={{fontSize: 28}}>{palabra}</Text>
@@ -50,9 +50,11 @@ class ModalComponent extends Component {
         swipeToClose={true}
         position="bottom"
         onClosed={() => ocultarSignificado()}>
-          <Container>
-            {significado(palabraMostrando)}
-          </Container>
+          <Card>
+            <CardItem>
+              {significado(palabraMostrando)}
+            </CardItem>
+          </Card>
       </Modal>
     )
   }

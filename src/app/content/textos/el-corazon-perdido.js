@@ -11,750 +11,750 @@ export default () => {
     <Pagina>
       
 	<P>
-		<T>Yendo</T><T> </T>
-		<T>una</T><T> </T>
-		<T><W it="tardecita" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="paseo" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T>las</T><T> </T>
-		<T><W it="calles" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="ciudad," /></T><T> </T>
-		<T><W it="vi" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="suelo" /></T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="objeto" /></T><T> </T>
-		<T><W it="rojo;" /></T><T> </T>
-		<T>me</T><T> </T>
-		<T><W it="bajé:" /></T><T> </T>
-		<T>era</T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="sangriento" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="vivo" /></T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="recogí" /></T><T> </T>
-		<T><W it="cuidadosamente." /></T><T> </T>
-		<T>«Debe</T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="habérsele" /></T><T> </T>
-		<T><W it="perdido" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>alguna</T><T> </T>
-		<T><W it="mujer»," /></T><T> </T>
-		<T><W it="pensé" /></T><T> </T>
-		<T>al</T><T> </T>
-		<T><W it="observar" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="blancura" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="delicadeza" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="tierna" /></T><T> </T>
-		<T><W it="víscera," /></T><T> </T>
-		<T>que,</T><T> </T>
-		<T>al</T><T> </T>
-		<T><W it="contacto" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>mis</T><T> </T>
-		<T><W it="dedos," /></T><T> </T>
-		<T><W it="palpitaba" /></T><T> </T>
-		<T>como</T><T> </T>
-		<T>si</T><T> </T>
-		<T><W it="estuviese" /></T><T> </T>
-		<T>dentro</T><T> </T>
-		<T>del</T><T> </T>
-		<T><W it="pecho" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="dueño." /></T><T> </T>
-		<T>Lo</T><T> </T>
-		<T><W it="envolví" /></T><T> </T>
-		<T>con</T><T> </T>
-		<T><W it="esmero" /></T><T> </T>
-		<T>dentro</T><T> </T>
-		<T>de</T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="blanco" /></T><T> </T>
-		<T><W it="paño," /></T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="abrigué," /></T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="escondí" /></T><T> </T>
-		<T>bajo</T><T> </T>
-		<T>mi</T><T> </T>
-		<T><W it="ropa," /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>me</T><T> </T>
-		<T><W it="dediqué" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T><W it="averiguar" /></T><T> </T>
-		<T>quién</T><T> </T>
-		<T>era</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="mujer" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="perdido" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="calle." /></T><T> </T>
-		<T>Para</T><T> </T>
-		<T><W it="indagar" /></T><T> </T>
-		<T><W it="mejor," /></T><T> </T>
-		<T><W it="adquirí" /></T><T> </T>
-		<T>unos</T><T> </T>
-		<T><W it="maravillosos" /></T><T> </T>
-		<T><W it="anteojos" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="permitían" /></T><T> </T>
-		<T><W it="ver," /></T><T> </T>
-		<T>al</T><T> </T>
-		<T><W it="través" /></T><T> </T>
-		<T>del</T><T> </T>
-		<T><W it="corpiño," /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="ropa" /></T><T> </T>
-		<T><W it="interior," /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="carne" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>de</T><T> </T>
-		<T>las</T><T> </T>
-		<T><W it="costillas" /></T><T> </T>
-		<T>-como</T><T> </T>
-		<T>por</T><T> </T>
-		<T>esos</T><T> </T>
-		<T><W it="relicarios" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="son" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="busto" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>una</T><T> </T>
-		<T><W it="santa" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>tienen</T><T> </T>
-		<T>en</T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="pecho" /></T><T> </T>
-		<T>una</T><T> </T>
-		<T><W it="ventanita" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="cristal-," /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="lugar" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="ocupa" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="corazón." /></T><T> </T>
+		<T>Yendo </T>
+		<T>una </T>
+		<W it="tardecita " />
+		<T>de </T>
+		<W it="paseo " />
+		<T>por </T>
+		<T>las </T>
+		<W it="calles " />
+		<T>de </T>
+		<T>la </T>
+		<W it="ciudad, " />
+		<W it="vi " />
+		<T>en </T>
+		<T>el </T>
+		<W it="suelo " />
+		<T>un </T>
+		<W it="objeto " />
+		<W it="rojo; " />
+		<T>me </T>
+		<W it="bajé: " />
+		<T>era </T>
+		<T>un </T>
+		<W it="sangriento " />
+		<T>y </T>
+		<W it="vivo " />
+		<W it="corazón " />
+		<T>que </T>
+		<W it="recogí " />
+		<W it="cuidadosamente. " />
+		<T>«Debe </T>
+		<T>de </T>
+		<W it="habérsele " />
+		<W it="perdido " />
+		<T>a </T>
+		<T>alguna </T>
+		<W it="mujer», " />
+		<W it="pensé " />
+		<T>al </T>
+		<W it="observar " />
+		<T>la </T>
+		<W it="blancura " />
+		<T>y </T>
+		<W it="delicadeza " />
+		<T>de </T>
+		<T>la </T>
+		<W it="tierna " />
+		<W it="víscera, " />
+		<T>que, </T>
+		<T>al </T>
+		<W it="contacto " />
+		<T>de </T>
+		<T>mis </T>
+		<W it="dedos, " />
+		<W it="palpitaba " />
+		<T>como </T>
+		<T>si </T>
+		<W it="estuviese " />
+		<T>dentro </T>
+		<T>del </T>
+		<W it="pecho " />
+		<T>de </T>
+		<T>su </T>
+		<W it="dueño. " />
+		<T>Lo </T>
+		<W it="envolví " />
+		<T>con </T>
+		<W it="esmero " />
+		<T>dentro </T>
+		<T>de </T>
+		<T>un </T>
+		<W it="blanco " />
+		<W it="paño, " />
+		<T>lo </T>
+		<W it="abrigué, " />
+		<T>lo </T>
+		<W it="escondí " />
+		<T>bajo </T>
+		<T>mi </T>
+		<W it="ropa, " />
+		<T>y </T>
+		<T>me </T>
+		<W it="dediqué " />
+		<T>a </T>
+		<W it="averiguar " />
+		<T>quién </T>
+		<T>era </T>
+		<T>la </T>
+		<W it="mujer " />
+		<T>que </T>
+		<W it="había " />
+		<W it="perdido " />
+		<T>el </T>
+		<W it="corazón " />
+		<T>en </T>
+		<T>la </T>
+		<W it="calle. " />
+		<T>Para </T>
+		<W it="indagar " />
+		<W it="mejor, " />
+		<W it="adquirí " />
+		<T>unos </T>
+		<W it="maravillosos " />
+		<W it="anteojos " />
+		<T>que </T>
+		<W it="permitían " />
+		<W it="ver, " />
+		<T>al </T>
+		<W it="través " />
+		<T>del </T>
+		<W it="corpiño, " />
+		<T>de </T>
+		<T>la </T>
+		<W it="ropa " />
+		<W it="interior, " />
+		<T>de </T>
+		<T>la </T>
+		<W it="carne " />
+		<T>y </T>
+		<T>de </T>
+		<T>las </T>
+		<W it="costillas " />
+		<T>-como </T>
+		<T>por </T>
+		<T>esos </T>
+		<W it="relicarios " />
+		<T>que </T>
+		<W it="son " />
+		<T>el </T>
+		<W it="busto " />
+		<T>de </T>
+		<T>una </T>
+		<W it="santa " />
+		<T>y </T>
+		<T>tienen </T>
+		<T>en </T>
+		<T>el </T>
+		<W it="pecho " />
+		<T>una </T>
+		<W it="ventanita " />
+		<T>de </T>
+		<W it="cristal-, " />
+		<T>el </T>
+		<W it="lugar " />
+		<T>que </T>
+		<W it="ocupa " />
+		<T>el </T>
+		<W it="corazón. " />
 
 	</P>
 
     
 	<P>
-		<T>Apenas</T><T> </T>
-		<T>me</T><T> </T>
-		<T><W it="hube" /></T><T> </T>
-		<T><W it="calado" /></T><T> </T>
-		<T>mis</T><T> </T>
-		<T><W it="anteojos" /></T><T> </T>
-		<T><W it="mágicos," /></T><T> </T>
-		<T><W it="miré" /></T><T> </T>
-		<T><W it="ansiosamente" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="primera" /></T><T> </T>
-		<T><W it="mujer" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="pasaba," /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="¡oh" /></T><T> </T>
-		<T><W it="asombro!," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="mujer" /></T><T> </T>
-		<T>no</T><T> </T>
-		<T><W it="tenía" /></T><T> </T>
-		<T><W it="corazón." /></T><T> </T>
-		<T>Ella</T><T> </T>
-		<T><W it="debía" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>ser,</T><T> </T>
-		<T>sin</T><T> </T>
-		<T><W it="duda," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="propietaria" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>mi</T><T> </T>
-		<T><W it="hallazgo." /></T><T> </T>
-		<T>Lo</T><T> </T>
-		<T><W it="raro" /></T><T> </T>
-		<T>fue</T><T> </T>
-		<T>que,</T><T> </T>
-		<T>al</T><T> </T>
-		<T><W it="decirle" /></T><T> </T>
-		<T>yo</T><T> </T>
-		<T>cómo</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="encontrado" /></T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="conservaba" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>sus</T><T> </T>
-		<T><W it="órdenes" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>si</T><T> </T>
-		<T><W it="gustaba" /></T><T> </T>
-		<T><W it="recogerlo," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="mujer," /></T><T> </T>
-		<T><W it="indignada," /></T><T> </T>
-		<T><W it="juró" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="perjuró" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>no</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="perdido" /></T><T> </T>
-		<T><W it="cosa" /></T><T> </T>
-		<T>alguna;</T><T> </T>
-		<T>que</T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>estaba</T><T> </T>
-		<T>donde</T><T> </T>
-		<T><W it="solía" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>que</T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="sentía" /></T><T> </T>
-		<T><W it="perfectamente" /></T><T> </T>
-		<T><W it="pulsar," /></T><T> </T>
-		<T><W it="recibir" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="expeler" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="sangre." /></T><T> </T>
-		<T>En</T><T> </T>
-		<T><W it="vista" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="terquedad" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="mujer," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="dejé" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>me</T><T> </T>
-		<T><W it="volví" /></T><T> </T>
-		<T>hacia</T><T> </T>
-		<T>otra,</T><T> </T>
-		<T><W it="joven," /></T><T> </T>
-		<T><W it="linda," /></T><T> </T>
-		<T><W it="seductora," /></T><T> </T>
-		<T><W it="alegre." /></T><T> </T>
-		<T>¡Dios</T><T> </T>
-		<T><W it="santo!" /></T><T> </T>
-		<T>En</T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="blanco" /></T><T> </T>
-		<T><W it="pecho" /></T><T> </T>
-		<T><W it="vi" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T>misma</T><T> </T>
-		<T><W it="oquedad," /></T><T> </T>
-		<T>el</T><T> </T>
-		<T>mismo</T><T> </T>
-		<T><W it="agujero" /></T><T> </T>
-		<T><W it="rosado," /></T><T> </T>
-		<T>sin</T><T> </T>
-		<T>nada</T><T> </T>
-		<T>allá</T><T> </T>
-		<T>dentro,</T><T> </T>
-		<T>nada,</T><T> </T>
-		<T>nada.</T><T> </T>
-		<T>¡Tampoco</T><T> </T>
-		<T><W it="ésta" /></T><T> </T>
-		<T><W it="tenía" /></T><T> </T>
-		<T><W it="corazón!" /></T><T> </T>
-		<T>Y</T><T> </T>
-		<T>cuando</T><T> </T>
-		<T><W it="le" /></T><T> </T>
-		<T><W it="ofrecí" /></T><T> </T>
-		<T><W it="respetuosamente" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T>que</T><T> </T>
-		<T>yo</T><T> </T>
-		<T><W it="llevaba" /></T><T> </T>
-		<T><W it="guardadito," /></T><T> </T>
-		<T>menos</T><T> </T>
-		<T><W it="aún" /></T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="quiso" /></T><T> </T>
-		<T><W it="admitir," /></T><T> </T>
-		<T><W it="alegando" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>era</T><T> </T>
-		<T><W it="ofenderla" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>un</T><T> </T>
-		<T>modo</T><T> </T>
-		<T><W it="grave" /></T><T> </T>
-		<T><W it="suponer" /></T><T> </T>
-		<T>que,</T><T> </T>
-		<T>o</T><T> </T>
-		<T><W it="le" /></T><T> </T>
-		<T><W it="faltaba" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="corazón," /></T><T> </T>
-		<T>o</T><T> </T>
-		<T>era</T><T> </T>
-		<T>tan</T><T> </T>
-		<T><W it="descuidada" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="podido" /></T><T> </T>
-		<T><W it="perderlo" /></T><T> </T>
-		<T><W it="así" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="vía" /></T><T> </T>
-		<T><W it="pública" /></T><T> </T>
-		<T>sin</T><T> </T>
-		<T>que</T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="advirtiese." /></T><T> </T>
+		<T>Apenas </T>
+		<T>me </T>
+		<W it="hube " />
+		<W it="calado " />
+		<T>mis </T>
+		<W it="anteojos " />
+		<W it="mágicos, " />
+		<W it="miré " />
+		<W it="ansiosamente " />
+		<T>a </T>
+		<T>la </T>
+		<W it="primera " />
+		<W it="mujer " />
+		<T>que </T>
+		<W it="pasaba, " />
+		<T>y </T>
+		<W it="¡oh " />
+		<W it="asombro!, " />
+		<T>la </T>
+		<W it="mujer " />
+		<T>no </T>
+		<W it="tenía " />
+		<W it="corazón. " />
+		<T>Ella </T>
+		<W it="debía " />
+		<T>de </T>
+		<T>ser, </T>
+		<T>sin </T>
+		<W it="duda, " />
+		<T>la </T>
+		<W it="propietaria " />
+		<T>de </T>
+		<T>mi </T>
+		<W it="hallazgo. " />
+		<T>Lo </T>
+		<W it="raro " />
+		<T>fue </T>
+		<T>que, </T>
+		<T>al </T>
+		<W it="decirle " />
+		<T>yo </T>
+		<T>cómo </T>
+		<W it="había " />
+		<W it="encontrado " />
+		<T>su </T>
+		<W it="corazón " />
+		<T>y </T>
+		<T>lo </T>
+		<W it="conservaba " />
+		<T>a </T>
+		<T>sus </T>
+		<W it="órdenes " />
+		<T>de </T>
+		<T>si </T>
+		<W it="gustaba " />
+		<W it="recogerlo, " />
+		<T>la </T>
+		<W it="mujer, " />
+		<W it="indignada, " />
+		<W it="juró " />
+		<T>y </T>
+		<W it="perjuró " />
+		<T>que </T>
+		<T>no </T>
+		<W it="había " />
+		<W it="perdido " />
+		<W it="cosa " />
+		<T>alguna; </T>
+		<T>que </T>
+		<T>su </T>
+		<W it="corazón " />
+		<T>estaba </T>
+		<T>donde </T>
+		<W it="solía " />
+		<T>y </T>
+		<T>que </T>
+		<T>lo </T>
+		<W it="sentía " />
+		<W it="perfectamente " />
+		<W it="pulsar, " />
+		<W it="recibir " />
+		<T>y </T>
+		<W it="expeler " />
+		<T>la </T>
+		<W it="sangre. " />
+		<T>En </T>
+		<W it="vista " />
+		<T>de </T>
+		<T>la </T>
+		<W it="terquedad " />
+		<T>de </T>
+		<T>la </T>
+		<W it="mujer, " />
+		<T>la </T>
+		<W it="dejé " />
+		<T>y </T>
+		<T>me </T>
+		<W it="volví " />
+		<T>hacia </T>
+		<T>otra, </T>
+		<W it="joven, " />
+		<W it="linda, " />
+		<W it="seductora, " />
+		<W it="alegre. " />
+		<T>¡Dios </T>
+		<W it="santo! " />
+		<T>En </T>
+		<T>su </T>
+		<W it="blanco " />
+		<W it="pecho " />
+		<W it="vi " />
+		<T>la </T>
+		<T>misma </T>
+		<W it="oquedad, " />
+		<T>el </T>
+		<T>mismo </T>
+		<W it="agujero " />
+		<W it="rosado, " />
+		<T>sin </T>
+		<T>nada </T>
+		<T>allá </T>
+		<T>dentro, </T>
+		<T>nada, </T>
+		<T>nada. </T>
+		<T>¡Tampoco </T>
+		<W it="ésta " />
+		<W it="tenía " />
+		<W it="corazón! " />
+		<T>Y </T>
+		<T>cuando </T>
+		<W it="le " />
+		<W it="ofrecí " />
+		<W it="respetuosamente " />
+		<T>el </T>
+		<T>que </T>
+		<T>yo </T>
+		<W it="llevaba " />
+		<W it="guardadito, " />
+		<T>menos </T>
+		<W it="aún " />
+		<T>lo </T>
+		<W it="quiso " />
+		<W it="admitir, " />
+		<W it="alegando " />
+		<T>que </T>
+		<T>era </T>
+		<W it="ofenderla " />
+		<T>de </T>
+		<T>un </T>
+		<T>modo </T>
+		<W it="grave " />
+		<W it="suponer " />
+		<T>que, </T>
+		<T>o </T>
+		<W it="le " />
+		<W it="faltaba " />
+		<T>el </T>
+		<W it="corazón, " />
+		<T>o </T>
+		<T>era </T>
+		<T>tan </T>
+		<W it="descuidada " />
+		<T>que </T>
+		<W it="había " />
+		<W it="podido " />
+		<W it="perderlo " />
+		<W it="así " />
+		<T>en </T>
+		<T>la </T>
+		<W it="vía " />
+		<W it="pública " />
+		<T>sin </T>
+		<T>que </T>
+		<T>lo </T>
+		<W it="advirtiese. " />
 
 	</P>
 
     
 	<P>
-		<T>Y</T><T> </T>
-		<T><W it="pasaron" /></T><T> </T>
-		<T><W it="centenares" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="mujeres," /></T><T> </T>
-		<T><W it="viejas" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="mozas," /></T><T> </T>
-		<T><W it="lindas" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="feas," /></T><T> </T>
-		<T><W it="morenas" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="pelirrubias," /></T><T> </T>
-		<T><W it="melancólicas" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="vivarachas;" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>a</T><T> </T>
-		<T>todas</T><T> </T>
-		<T><W it="les" /></T><T> </T>
-		<T><W it="eché" /></T><T> </T>
-		<T>los</T><T> </T>
-		<T><W it="anteojos," /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>en</T><T> </T>
-		<T>todas</T><T> </T>
-		<T><W it="noté" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>del</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T><W it="sólo" /></T><T> </T>
-		<T><W it="tenían" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="sitio," /></T><T> </T>
-		<T>pero</T><T> </T>
-		<T>que</T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="órgano," /></T><T> </T>
-		<T>o</T><T> </T>
-		<T>no</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="existido" /></T><T> </T>
-		<T>nunca,</T><T> </T>
-		<T>o</T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="perdido" /></T><T> </T>
-		<T>tiempo</T><T> </T>
-		<T><W it="atrás." /></T><T> </T>
-		<T>Y</T><T> </T>
-		<T>todas,</T><T> </T>
-		<T>todas</T><T> </T>
-		<T>sin</T><T> </T>
-		<T><W it="excepción" /></T><T> </T>
-		<T>alguna,</T><T> </T>
-		<T>al</T><T> </T>
-		<T>querer</T><T> </T>
-		<T>yo</T><T> </T>
-		<T><W it="devolverles" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="carecían," /></T><T> </T>
-		<T><W it="negábanse" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T><W it="aceptarlo," /></T><T> </T>
-		<T>ya</T><T> </T>
-		<T>porque</T><T> </T>
-		<T><W it="creían" /></T><T> </T>
-		<T><W it="tenerlo," /></T><T> </T>
-		<T>ya</T><T> </T>
-		<T>porque</T><T> </T>
-		<T>sin</T><T> </T>
-		<T>él</T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="encontraban" /></T><T> </T>
-		<T><W it="divinamente," /></T><T> </T>
-		<T>ya</T><T> </T>
-		<T>porque</T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="juzgaban" /></T><T> </T>
-		<T><W it="injuriadas" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="oferta," /></T><T> </T>
-		<T>ya</T><T> </T>
-		<T>porque</T><T> </T>
-		<T>no</T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="atrevían" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T><W it="arrostrar" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="peligro" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="poseer" /></T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="corazón." /></T><T> </T>
-		<T>Iba</T><T> </T>
-		<T><W it="desesperando" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="restituir" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="pecho" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="mujer" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="pobre" /></T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T><W it="abandonado," /></T><T> </T>
-		<T>cuando,</T><T> </T>
-		<T>por</T><T> </T>
-		<T><W it="casualidad," /></T><T> </T>
-		<T>con</T><T> </T>
-		<T><W it="ayuda" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>mis</T><T> </T>
-		<T><W it="prodigiosos" /></T><T> </T>
-		<T><W it="lentes," /></T><T> </T>
-		<T><W it="acerté" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T><W it="ver" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="pasaba" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="calle" /></T><T> </T>
-		<T>una</T><T> </T>
-		<T><W it="niña" /></T><T> </T>
-		<T><W it="pálida," /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>en</T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="pecho," /></T><T> </T>
-		<T>¡por</T><T> </T>
-		<T>fin!,</T><T> </T>
-		<T><W it="distinguí" /></T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="corazón," /></T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="verdadero" /></T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="carne," /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="saltaba," /></T><T> </T>
-		<T><W it="latía" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="sentía." /></T><T> </T>
-		<T>No</T><T> </T>
-		<T><W it="sé" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T>qué</T><T> </T>
-		<T>-pues</T><T> </T>
-		<T><W it="reconozco" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>era</T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="absurdo" /></T><T> </T>
-		<T><W it="brindar" /></T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>quien</T><T> </T>
-		<T>lo</T><T> </T>
-		<T><W it="tenía" /></T><T> </T>
-		<T>tan</T><T> </T>
-		<T><W it="vivo" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>tan</T><T> </T>
-		<T><W it="despierto-" /></T><T> </T>
-		<T>se</T><T> </T>
-		<T>me</T><T> </T>
-		<T><W it="ocurrió" /></T><T> </T>
-		<T>hacer</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="prueba" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="presentarle" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="habían" /></T><T> </T>
-		<T><W it="desechado" /></T><T> </T>
-		<T>todas,</T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="he" /></T><T> </T>
-		<T>aquí</T><T> </T>
-		<T>que</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="niña," /></T><T> </T>
-		<T>en</T><T> </T>
-		<T><W it="vez" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="rechazarme" /></T><T> </T>
-		<T>como</T><T> </T>
-		<T>las</T><T> </T>
-		<T>demás,</T><T> </T>
-		<T><W it="abrió" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="seno" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="recibió" /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>yo,</T><T> </T>
-		<T>en</T><T> </T>
-		<T>mi</T><T> </T>
-		<T><W it="fatiga," /></T><T> </T>
-		<T><W it="iba" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>dejar</T><T> </T>
-		<T>otra</T><T> </T>
-		<T><W it="vez" /></T><T> </T>
-		<T><W it="caído" /></T><T> </T>
-		<T>sobre</T><T> </T>
-		<T>los</T><T> </T>
-		<T><W it="guijarros." /></T><T> </T>
+		<T>Y </T>
+		<W it="pasaron " />
+		<W it="centenares " />
+		<T>de </T>
+		<W it="mujeres, " />
+		<W it="viejas " />
+		<T>y </T>
+		<W it="mozas, " />
+		<W it="lindas " />
+		<T>y </T>
+		<W it="feas, " />
+		<W it="morenas " />
+		<T>y </T>
+		<W it="pelirrubias, " />
+		<W it="melancólicas " />
+		<T>y </T>
+		<W it="vivarachas; " />
+		<T>y </T>
+		<T>a </T>
+		<T>todas </T>
+		<W it="les " />
+		<W it="eché " />
+		<T>los </T>
+		<W it="anteojos, " />
+		<T>y </T>
+		<T>en </T>
+		<T>todas </T>
+		<W it="noté " />
+		<T>que </T>
+		<T>del </T>
+		<W it="corazón " />
+		<W it="sólo " />
+		<W it="tenían " />
+		<T>el </T>
+		<W it="sitio, " />
+		<T>pero </T>
+		<T>que </T>
+		<T>el </T>
+		<W it="órgano, " />
+		<T>o </T>
+		<T>no </T>
+		<W it="había " />
+		<W it="existido " />
+		<T>nunca, </T>
+		<T>o </T>
+		<T>se </T>
+		<W it="había " />
+		<W it="perdido " />
+		<T>tiempo </T>
+		<W it="atrás. " />
+		<T>Y </T>
+		<T>todas, </T>
+		<T>todas </T>
+		<T>sin </T>
+		<W it="excepción " />
+		<T>alguna, </T>
+		<T>al </T>
+		<T>querer </T>
+		<T>yo </T>
+		<W it="devolverles " />
+		<T>el </T>
+		<W it="corazón " />
+		<T>de </T>
+		<T>que </T>
+		<W it="carecían, " />
+		<W it="negábanse " />
+		<T>a </T>
+		<W it="aceptarlo, " />
+		<T>ya </T>
+		<T>porque </T>
+		<W it="creían " />
+		<W it="tenerlo, " />
+		<T>ya </T>
+		<T>porque </T>
+		<T>sin </T>
+		<T>él </T>
+		<T>se </T>
+		<W it="encontraban " />
+		<W it="divinamente, " />
+		<T>ya </T>
+		<T>porque </T>
+		<T>se </T>
+		<W it="juzgaban " />
+		<W it="injuriadas " />
+		<T>por </T>
+		<T>la </T>
+		<W it="oferta, " />
+		<T>ya </T>
+		<T>porque </T>
+		<T>no </T>
+		<T>se </T>
+		<W it="atrevían " />
+		<T>a </T>
+		<W it="arrostrar " />
+		<T>el </T>
+		<W it="peligro " />
+		<T>de </T>
+		<W it="poseer " />
+		<T>un </T>
+		<W it="corazón. " />
+		<T>Iba </T>
+		<W it="desesperando " />
+		<T>de </T>
+		<W it="restituir " />
+		<T>a </T>
+		<T>un </T>
+		<W it="pecho " />
+		<T>de </T>
+		<W it="mujer " />
+		<T>el </T>
+		<W it="pobre " />
+		<W it="corazón " />
+		<W it="abandonado, " />
+		<T>cuando, </T>
+		<T>por </T>
+		<W it="casualidad, " />
+		<T>con </T>
+		<W it="ayuda " />
+		<T>de </T>
+		<T>mis </T>
+		<W it="prodigiosos " />
+		<W it="lentes, " />
+		<W it="acerté " />
+		<T>a </T>
+		<W it="ver " />
+		<T>que </T>
+		<W it="pasaba " />
+		<T>por </T>
+		<T>la </T>
+		<W it="calle " />
+		<T>una </T>
+		<W it="niña " />
+		<W it="pálida, " />
+		<T>y </T>
+		<T>en </T>
+		<T>su </T>
+		<W it="pecho, " />
+		<T>¡por </T>
+		<T>fin!, </T>
+		<W it="distinguí " />
+		<T>un </T>
+		<W it="corazón, " />
+		<T>un </T>
+		<W it="verdadero " />
+		<W it="corazón " />
+		<T>de </T>
+		<W it="carne, " />
+		<T>que </T>
+		<W it="saltaba, " />
+		<W it="latía " />
+		<T>y </T>
+		<W it="sentía. " />
+		<T>No </T>
+		<W it="sé " />
+		<T>por </T>
+		<T>qué </T>
+		<T>-pues </T>
+		<W it="reconozco " />
+		<T>que </T>
+		<T>era </T>
+		<T>un </T>
+		<W it="absurdo " />
+		<W it="brindar " />
+		<W it="corazón " />
+		<T>a </T>
+		<T>quien </T>
+		<T>lo </T>
+		<W it="tenía " />
+		<T>tan </T>
+		<W it="vivo " />
+		<T>y </T>
+		<T>tan </T>
+		<W it="despierto- " />
+		<T>se </T>
+		<T>me </T>
+		<W it="ocurrió " />
+		<T>hacer </T>
+		<T>la </T>
+		<W it="prueba " />
+		<T>de </T>
+		<W it="presentarle " />
+		<T>el </T>
+		<T>que </T>
+		<W it="habían " />
+		<W it="desechado " />
+		<T>todas, </T>
+		<T>y </T>
+		<W it="he " />
+		<T>aquí </T>
+		<T>que </T>
+		<T>la </T>
+		<W it="niña, " />
+		<T>en </T>
+		<W it="vez " />
+		<T>de </T>
+		<W it="rechazarme " />
+		<T>como </T>
+		<T>las </T>
+		<T>demás, </T>
+		<W it="abrió " />
+		<T>el </T>
+		<W it="seno " />
+		<T>y </T>
+		<W it="recibió " />
+		<T>el </T>
+		<W it="corazón " />
+		<T>que </T>
+		<T>yo, </T>
+		<T>en </T>
+		<T>mi </T>
+		<W it="fatiga, " />
+		<W it="iba " />
+		<T>a </T>
+		<T>dejar </T>
+		<T>otra </T>
+		<W it="vez " />
+		<W it="caído " />
+		<T>sobre </T>
+		<T>los </T>
+		<W it="guijarros. " />
 
 	</P>
 
     
 	<P>
-		<T>Enriquecida</T><T> </T>
-		<T>con</T><T> </T>
-		<T>dos</T><T> </T>
-		<T><W it="corazones," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="niña" /></T><T> </T>
-		<T><W it="pálida" /></T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="puso" /></T><T> </T>
-		<T>mucho</T><T> </T>
-		<T>más</T><T> </T>
-		<T><W it="pálida" /></T><T> </T>
-		<T><W it="aún:" /></T><T> </T>
-		<T>las</T><T> </T>
-		<T><W it="emociones," /></T><T> </T>
-		<T>por</T><T> </T>
-		<T><W it="insignificantes" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="fuesen," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="estremecían" /></T><T> </T>
-		<T>hasta</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="médula;" /></T><T> </T>
-		<T>los</T><T> </T>
-		<T><W it="afectos" /></T><T> </T>
-		<T><W it="vibraban" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T>ella</T><T> </T>
-		<T>con</T><T> </T>
-		<T><W it="cruel" /></T><T> </T>
-		<T><W it="intensidad;" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="amistad," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="compasión," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="tristeza," /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="alegría," /></T><T> </T>
-		<T>el</T><T> </T>
-		<T><W it="amor," /></T><T> </T>
-		<T>los</T><T> </T>
-		<T><W it="celos," /></T><T> </T>
-		<T>todo</T><T> </T>
-		<T>era</T><T> </T>
-		<T>en</T><T> </T>
-		<T>ella</T><T> </T>
-		<T><W it="profundo" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="terrible;" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>la</T><T> </T>
-		<T>muy</T><T> </T>
-		<T><W it="necia," /></T><T> </T>
-		<T>en</T><T> </T>
-		<T><W it="vez" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="resolverse" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T><W it="suprimir" /></T><T> </T>
-		<T>uno</T><T> </T>
-		<T>de</T><T> </T>
-		<T>sus</T><T> </T>
-		<T>dos</T><T> </T>
-		<T><W it="corazones," /></T><T> </T>
-		<T>o</T><T> </T>
-		<T>los</T><T> </T>
-		<T>dos</T><T> </T>
-		<T>a</T><T> </T>
-		<T>un</T><T> </T>
-		<T>tiempo,</T><T> </T>
-		<T><W it="diríase" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="complacía" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T><W it="vivir" /></T><T> </T>
-		<T><W it="doble" /></T><T> </T>
-		<T><W it="vida" /></T><T> </T>
-		<T><W it="espiritual," /></T><T> </T>
-		<T><W it="queriendo," /></T><T> </T>
-		<T><W it="gozando" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="sufriendo" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T><W it="duplicado," /></T><T> </T>
-		<T><W it="sumando" /></T><T> </T>
-		<T><W it="impresiones" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>esas</T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="bastan" /></T><T> </T>
-		<T>para</T><T> </T>
-		<T><W it="extinguir" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="vida." /></T><T> </T>
-		<T>La</T><T> </T>
-		<T><W it="criatura" /></T><T> </T>
-		<T>era</T><T> </T>
-		<T>como</T><T> </T>
-		<T><W it="vela" /></T><T> </T>
-		<T><W it="encendida" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T>los</T><T> </T>
-		<T>dos</T><T> </T>
-		<T><W it="cabos," /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="consume" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T><W it="breves" /></T><T> </T>
-		<T><W it="instantes." /></T><T> </T>
-		<T>Y,</T><T> </T>
-		<T>en</T><T> </T>
-		<T><W it="efecto," /></T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="consumió." /></T><T> </T>
-		<T>Tendida</T><T> </T>
-		<T>en</T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="lecho" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="muerte," /></T><T> </T>
-		<T><W it="lívida" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T>tan</T><T> </T>
-		<T><W it="demacrada" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="delgada" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T><W it="parecía" /></T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="pajarillo," /></T><T> </T>
-		<T><W it="vinieron" /></T><T> </T>
-		<T>los</T><T> </T>
-		<T><W it="médicos" /></T><T> </T>
-		<T>y</T><T> </T>
-		<T><W it="aseguraron" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>lo</T><T> </T>
-		<T>que</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="arrebataba" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>este</T><T> </T>
-		<T><W it="mundo" /></T><T> </T>
-		<T>era</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="rotura" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="aneurisma." /></T><T> </T>
-		<T>Ninguno</T><T> </T>
-		<T><W it="(¡son" /></T><T> </T>
-		<T>tan</T><T> </T>
-		<T><W it="torpes!)" /></T><T> </T>
-		<T><W it="supo" /></T><T> </T>
-		<T><W it="adivinar" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T>verdad:</T><T> </T>
-		<T>ninguno</T><T> </T>
-		<T><W it="comprendió" /></T><T> </T>
-		<T>que</T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="niña" /></T><T> </T>
-		<T>se</T><T> </T>
-		<T><W it="había" /></T><T> </T>
-		<T><W it="muerto" /></T><T> </T>
-		<T>por</T><T> </T>
-		<T><W it="cometer" /></T><T> </T>
-		<T>la</T><T> </T>
-		<T><W it="imprudencia" /></T><T> </T>
-		<T>de</T><T> </T>
-		<T><W it="dar" /></T><T> </T>
-		<T><W it="asilo" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T>su</T><T> </T>
-		<T><W it="pecho" /></T><T> </T>
-		<T>a</T><T> </T>
-		<T>un</T><T> </T>
-		<T><W it="corazón" /></T><T> </T>
-		<T><W it="perdido" /></T><T> </T>
-		<T>en</T><T> </T>
-		<T>la</T><T> </T>
+		<T>Enriquecida </T>
+		<T>con </T>
+		<T>dos </T>
+		<W it="corazones, " />
+		<T>la </T>
+		<W it="niña " />
+		<W it="pálida " />
+		<T>se </T>
+		<W it="puso " />
+		<T>mucho </T>
+		<T>más </T>
+		<W it="pálida " />
+		<W it="aún: " />
+		<T>las </T>
+		<W it="emociones, " />
+		<T>por </T>
+		<W it="insignificantes " />
+		<T>que </T>
+		<W it="fuesen, " />
+		<T>la </T>
+		<W it="estremecían " />
+		<T>hasta </T>
+		<T>la </T>
+		<W it="médula; " />
+		<T>los </T>
+		<W it="afectos " />
+		<W it="vibraban " />
+		<T>en </T>
+		<T>ella </T>
+		<T>con </T>
+		<W it="cruel " />
+		<W it="intensidad; " />
+		<T>la </T>
+		<W it="amistad, " />
+		<T>la </T>
+		<W it="compasión, " />
+		<T>la </T>
+		<W it="tristeza, " />
+		<T>la </T>
+		<W it="alegría, " />
+		<T>el </T>
+		<W it="amor, " />
+		<T>los </T>
+		<W it="celos, " />
+		<T>todo </T>
+		<T>era </T>
+		<T>en </T>
+		<T>ella </T>
+		<W it="profundo " />
+		<T>y </T>
+		<W it="terrible; " />
+		<T>y </T>
+		<T>la </T>
+		<T>muy </T>
+		<W it="necia, " />
+		<T>en </T>
+		<W it="vez " />
+		<T>de </T>
+		<W it="resolverse " />
+		<T>a </T>
+		<W it="suprimir " />
+		<T>uno </T>
+		<T>de </T>
+		<T>sus </T>
+		<T>dos </T>
+		<W it="corazones, " />
+		<T>o </T>
+		<T>los </T>
+		<T>dos </T>
+		<T>a </T>
+		<T>un </T>
+		<T>tiempo, </T>
+		<W it="diríase " />
+		<T>que </T>
+		<T>se </T>
+		<W it="complacía " />
+		<T>en </T>
+		<W it="vivir " />
+		<W it="doble " />
+		<W it="vida " />
+		<W it="espiritual, " />
+		<W it="queriendo, " />
+		<W it="gozando " />
+		<T>y </T>
+		<W it="sufriendo " />
+		<T>por </T>
+		<W it="duplicado, " />
+		<W it="sumando " />
+		<W it="impresiones " />
+		<T>de </T>
+		<T>esas </T>
+		<T>que </T>
+		<W it="bastan " />
+		<T>para </T>
+		<W it="extinguir " />
+		<T>la </T>
+		<W it="vida. " />
+		<T>La </T>
+		<W it="criatura " />
+		<T>era </T>
+		<T>como </T>
+		<W it="vela " />
+		<W it="encendida " />
+		<T>por </T>
+		<T>los </T>
+		<T>dos </T>
+		<W it="cabos, " />
+		<T>que </T>
+		<T>se </T>
+		<W it="consume " />
+		<T>en </T>
+		<W it="breves " />
+		<W it="instantes. " />
+		<T>Y, </T>
+		<T>en </T>
+		<W it="efecto, " />
+		<T>se </T>
+		<W it="consumió. " />
+		<T>Tendida </T>
+		<T>en </T>
+		<T>su </T>
+		<W it="lecho " />
+		<T>de </T>
+		<W it="muerte, " />
+		<W it="lívida " />
+		<T>y </T>
+		<T>tan </T>
+		<W it="demacrada " />
+		<T>y </T>
+		<W it="delgada " />
+		<T>que </T>
+		<W it="parecía " />
+		<T>un </T>
+		<W it="pajarillo, " />
+		<W it="vinieron " />
+		<T>los </T>
+		<W it="médicos " />
+		<T>y </T>
+		<W it="aseguraron " />
+		<T>que </T>
+		<T>lo </T>
+		<T>que </T>
+		<T>la </T>
+		<W it="arrebataba " />
+		<T>de </T>
+		<T>este </T>
+		<W it="mundo " />
+		<T>era </T>
+		<T>la </T>
+		<W it="rotura " />
+		<T>de </T>
+		<T>un </T>
+		<W it="aneurisma. " />
+		<T>Ninguno </T>
+		<W it="(¡son " />
+		<T>tan </T>
+		<W it="torpes!) " />
+		<W it="supo " />
+		<W it="adivinar " />
+		<T>la </T>
+		<T>verdad: </T>
+		<T>ninguno </T>
+		<W it="comprendió " />
+		<T>que </T>
+		<T>la </T>
+		<W it="niña " />
+		<T>se </T>
+		<W it="había " />
+		<W it="muerto " />
+		<T>por </T>
+		<W it="cometer " />
+		<T>la </T>
+		<W it="imprudencia " />
+		<T>de </T>
+		<W it="dar " />
+		<W it="asilo " />
+		<T>en </T>
+		<T>su </T>
+		<W it="pecho " />
+		<T>a </T>
+		<T>un </T>
+		<W it="corazón " />
+		<W it="perdido " />
+		<T>en </T>
+		<T>la </T>
 		<T>calle.
-</T><T> </T>
+ </T>
 
 	</P>
 

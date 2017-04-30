@@ -26,7 +26,7 @@ export const textosInstalar = async () => {
   }
   const data = await preprocesar()
   _.each(_.keys(data), id => {
-    const code = data[id]
+    const code = data[id].code
     saveAsJs(
       `() => {
   return (
@@ -48,7 +48,17 @@ import W from '../../containers/Palabra'`
 
   let indexContent = ''
   _.each(_.keys(data), id => {
-    indexContent += `"${id}": require("./${id}.js"),\n`
+    const t = data[id]
+    
+    indexContent += `
+"${id}": {
+  titulo: '${t.titulo}',
+  autor: '${t.autor}',
+  anio: '${t.anio}',
+  link: '${t.link}',
+  palabrasCount: ${t.body.replace('\n\n', '').split(' ').length},
+  component: require("./${id}.js").default,\n
+},`
   })
 
   saveAsJs(

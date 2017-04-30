@@ -90,8 +90,10 @@ export const preprocesar = async () => {
   const files = await readFiles(process.env.TEXTOS_FOLDER)
   _.each(files, f => {
     const { slug, code } = tokenize(f)
-    data[slug] = data[slug] || ''
-    data[slug] += code
+    const { slug2, content } = mdToJson(f)
+    const parrafos = content.body.split('\n\n')
+    data[slug] = data[slug] || {...content, code: ''}
+    data[slug].code += code
   })
   return data
 }

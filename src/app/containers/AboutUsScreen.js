@@ -1,12 +1,16 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { Image } from 'react-native'
+import { Image, Linking } from 'react-native'
 import { Card, CardItem, Text, View, Thumbnail, Container, Header, Content, Title, Button, Left, Right, Body, Icon} from 'native-base'
 // import Icon from 'react-native-vector-icons/Ionicons'
-
+import Hyperlink from 'react-native-hyperlink'
 
 class AboutUsScreen extends React.Component {
   render () {
+    const style = {
+      fontSize: 22
+    }
+
     return (
       <Container >
         <Header>
@@ -16,31 +20,42 @@ class AboutUsScreen extends React.Component {
             </Button>
           </Left>
           <Body style={{flex: 3}}>
-            <Title>Card Example</Title>
+            <Title>#NadiesLee #terror</Title>
           </Body>
           <Right />
         </Header>
         <Content padder>
           <Card style={{flex: 0}}>
             <CardItem>
-              <Image style={{ resizeMode: 'cover', height: 200,flex: 1 }} source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} />
+              <Text style={style}>
+                Buscamos promover la lectura a través de los mismos cuentos de terror
+                que nos atraparon en nuestra adolescencia.
+              </Text>
             </CardItem>
             <CardItem>
-              <Button transparent>
-                <Icon name="logo-github" />
-                <Text>41,926 stars</Text>
-              </Button>
-            </CardItem>
-          </Card>
-          <Card style={{flex: 0}}>
-            <CardItem>
-              <Image style={{ resizeMode: 'cover', height: 200,flex: 1 }} source={{uri: 'https://assets-cdn.github.com/images/modules/logos_page/Octocat.png'}} />
+              <Text style={style}>
+                Facilitando la comprensión lectora a través del acceso
+                a un diccionario integrado.
+              </Text>
             </CardItem>
             <CardItem>
-              <Button transparent>
-                <Icon name="logo-github" />
-                <Text>15,021 stars</Text>
-              </Button>
+              <Text style={style}>
+                Animamos a todos las portadoras de telefonía e importadores
+                de teléfonos, a preinstalar esta aplicación!!!
+              </Text>
+            </CardItem>
+            <CardItem>
+              <Text style={style}>
+                Somos intranerds, soluciones offline sólidas como la roca
+              </Text>
+            </CardItem>
+            <CardItem>
+              <Hyperlink onPress={ url => Linking.openURL(url) }>
+                <Text style={style}>http://intranerds.io</Text>
+              </Hyperlink>
+            </CardItem>
+            <CardItem>
+              <Image linkText="http://intranerds.io" source={require('../images/logo_intranerds.png')} />
             </CardItem>
           </Card>
         </Content>

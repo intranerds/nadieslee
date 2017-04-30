@@ -7,8 +7,14 @@ import {
   Text
 } from 'native-base'
 
+const style = {
+  textDecorationLine: "underline",
+  textDecorationStyle: "dotted",
+  textDecorationColor: "#ccc"
+}
+
 export default ({ it }) => {
   return (
-    <Text onPress={() => Alert.alert(it)}>{it}</Text>
+    <Text style={style} onPress={() => Alert.alert(it)}>{it}</Text>
   )
 }

@@ -21,12 +21,8 @@
     "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82"
   },
   "dependencies": {
-    "apisauce": "^0.10.0",
-    "format-json": "^1.0.3",
     "lodash": "^4.17.4",
     "native-base": "2.1.0",
-    "querystringify": "0.0.4",
-    "ramda": "^0.23.0",
     "react": "~15.4.1",
     "react-native": "0.42.0",
     "react-native-config": "^0.2.1",
@@ -38,7 +34,6 @@
     "react-redux": "^5.0.2",
     "redux": "^3.6.0",
     "redux-persist": "^4.1.0",
-    "redux-saga": "^0.14.3",
     "reduxsauce": "0.4.1",
     "seamless-immutable": "^7.0.1"
   },

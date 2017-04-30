@@ -74,12 +74,12 @@ const tokenize = f => {
     const pcode = tokens.map(p => {
       const limpio = p.replace(puntuactionMarksRegExp, '')
       if (Object.prototype.hasOwnProperty.call(diccionario, limpio)) {
-        return `<T><W it="${p}" /></T> `
+        return `\t\t<T><W it="${p}" /></T><T> </T>\n`
       }
-      return `<T>${p}</T> `
+      return `\t\t<T>${p}</T><T> </T>\n`
     })
     code += `
-<P>${pcode.join('')}</P> 
+\t<P>\n${pcode.join('')}\n\t</P>\n
     `
   }
   return { slug, code }

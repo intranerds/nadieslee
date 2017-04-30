@@ -56,16 +56,17 @@ export function saveAsYaml(content, filepath) {
   fs.writeFileSync(filepath, contentAsYaml)
 }
 
-export function saveAsJs(content, filepath) {
-  const contentAsJsonStr = content
+export function saveAsJs(content, filepath, prepend = "") {
+  let contentAsJsonStr = content
   if (!_.isString(contentAsJsonStr)) {
-    const contentAsJsonStr = JSON.stringify(content, null, 2)
+    contentAsJsonStr = JSON.stringify(content, null, 2)
   }
 
   fs.writeFileSync(
     filepath,
-`
-// AUTOGENERADO - No editar
+`// AUTOGENERADO - No editar
+${prepend}
+
 export default ${contentAsJsonStr}
 `
   )

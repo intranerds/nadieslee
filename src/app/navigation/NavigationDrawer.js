@@ -7,7 +7,7 @@ import Styles from './Styles/NavigationDrawerStyles'
 
 /* *******************
 * Documentation: https://github.com/root-two/react-native-drawer
-********************/
+********************/ 
 
 class NavigationDrawer extends Component {
   render () {

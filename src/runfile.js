@@ -29,9 +29,6 @@ export const textosInstalar = async () => {
     const code = data[id]
     saveAsJs(
       `() => {
-  const Pagina = require('../../containers/Pagina')
-  const W = require('../../containers/Palabra')
-  const T = require('../../containers/Token')
   return (
     <Pagina>
       ${code}
@@ -39,13 +36,19 @@ export const textosInstalar = async () => {
   )
 }
       `,
-      textoComponentFile(id)
+      textoComponentFile(id),
+`
+import React from 'react'
+import Pagina from '../../containers/Pagina'
+import P from '../../containers/Parrafo'
+import T from '../../containers/Token'
+import W from '../../containers/Palabra'`
     )
   })
 
   let indexContent = ''
   _.each(_.keys(data), id => {
-    indexContent += `"${id}": require("${textoComponentFile(id)}"),\n`
+    indexContent += `"${id}": require("./${id}.js"),\n`
   })
 
   saveAsJs(

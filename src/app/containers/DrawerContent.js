@@ -28,7 +28,7 @@ class DrawerContent extends Component {
       <View style={styles.container}>
         <Image source={Images.logoDark} style={styles.logo} />
         <Content>
-          <ListItem onPress={()=> {NavigationActions.listViewExample();this.context.drawer.close()}}>
+          <ListItem onPress={()=> {NavigationActions.paginaEjemplo();this.context.drawer.close()}}>
             <Text>List example</Text>
           </ListItem>
           <ListItem onPress={()=> {NavigationActions.cardExample();this.context.drawer.close()}}>

@@ -10,8 +10,8 @@ class IntroComponent extends Component {
       title: 'Lee cuentos clásicos de terror',
       img: require('../../images/intro/1.png'),
       imgStyle: {
-        height: 103 * 4,
-        width: 103 * 4,
+        height: 103 * 2.5,
+        width: 103 * 2.5,
       },
       backgroundColor: '#bbb',
       fontColor: 'black',
@@ -20,8 +20,8 @@ class IntroComponent extends Component {
       title: 'Sin necesidad de un diccionario',
       img: require('../../images/intro/2.png'),
       imgStyle: {
-        height: 115 * 4,
-        width: 103 * 4,
+        height: 115 * 2.5,
+        width: 103 * 2.5,
       },
       backgroundColor: '#666',
       fontColor: 'white',
@@ -30,8 +30,8 @@ class IntroComponent extends Component {
       title: 'Ni conección a internet',
       img: require('../../images/intro/3.png'),
       imgStyle: {
-        height: 105 * 3,
-        width: 130 * 3,
+        height: 105 * 2,
+        width: 130 * 2,
       },
       backgroundColor: 'black',
       fontColor: 'red',

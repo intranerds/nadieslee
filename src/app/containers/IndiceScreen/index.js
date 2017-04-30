@@ -1,10 +1,12 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { Image } from 'react-native'
+import { Alert, TouchableHightlight, View } from 'react-native'
 import Header from '../Header'
-import { Card, CardItem, Text, View, Thumbnail, Container, Content, Title, Button, Left, Right, Body, Icon} from 'native-base'
+import { Card, CardItem, Text, Thumbnail, Container, Content, Title, Button, Left, Right, Body, Icon} from 'native-base'
 // import Icon from 'react-native-vector-icons/Ionicons'
-
+import Textos from '../../content/textos/index'
+import _ from 'lodash'
+import { Actions as NavigationActions } from 'react-native-router-flux'
 
 class IndiceScreen extends React.Component {
   render () {
@@ -12,28 +14,38 @@ class IndiceScreen extends React.Component {
       <Container >
         <Header titulo="Cuentos" />
         <Content padder>
-          <Card style={{flex: 0}}>
-            <CardItem>
-              <Image style={{ resizeMode: 'cover', height: 200,flex: 1 }} source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} />
-            </CardItem>
-            <CardItem>
-              <Button transparent>
-                <Icon name="logo-github" />
-                <Text>41,926 stars</Text>
-              </Button>
-            </CardItem>
-          </Card>
-          <Card style={{flex: 0}}>
-            <CardItem>
-              <Image style={{ resizeMode: 'cover', height: 200,flex: 1 }} source={{uri: 'https://assets-cdn.github.com/images/modules/logos_page/Octocat.png'}} />
-            </CardItem>
-            <CardItem>
-              <Button transparent>
-                <Icon name="logo-github" />
-                <Text>15,021 stars</Text>
-              </Button>
-            </CardItem>
-          </Card>
+          {Textos && _.map(_.keys(Textos), id => {
+            const t = Textos[id]
+            
+            return (
+                  <Card key={id} style={{flex: 0}}>
+                    <CardItem>
+                        <Left>
+                            <Body>
+                                <Text  style={{fontSize: 24}}>{t.titulo}</Text>
+                            </Body>
+                        </Left>
+                    </CardItem>
+                    <CardItem>
+                        <Body>
+                            <Text style={{fontSize: 18}}>{t.autor}</Text>
+                            <Text style={{fontSize: 18, marginTop: 10}}>{t.anio}</Text>
+                            <Text style={{fontSize: 14, marginTop: 10}}>{t.palabrasCount} palabras</Text>
+                        </Body>
+                    </CardItem>
+                    <CardItem>
+                        <Body>
+                            <Button transparent textStyle={{color: '#900'}} onPress={() => {
+                                NavigationActions.textoScreen({ texto: id})
+                              }}>
+                                <Text style={{fontSize: 18, marginTop: 10}}>Leer</Text>
+                            </Button>
+                        </Body>
+                    </CardItem>
+
+                  </Card>
+            )
+          })}
         </Content>
       </Container>
     )

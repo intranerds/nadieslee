@@ -7,6 +7,7 @@ import NavigationDrawer from './NavigationDrawer'
 import LaunchScreen from '../containers/LaunchScreen'
 import IndiceScreen from '../containers/IndiceScreen'
 import AboutUsScreen from '../containers/AboutUsScreen'
+import TextoScreen from '../containers/TextoScreen'
 
 
 /* **************************
@@ -21,6 +22,7 @@ class NavigationRouter extends Component {
           <Scene key='launchScreen' component={LaunchScreen} title='LaunchScreen' initial />
           <Scene key='indiceScreen' component={IndiceScreen}/>
           <Scene key='aboutUsScreen' component={AboutUsScreen}/>
+          <Scene key='textoScreen' component={TextoScreen}/>
         </Scene>
       </Router>
     )

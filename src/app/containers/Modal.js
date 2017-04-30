@@ -20,7 +20,7 @@ const puntuactionMarksRegExp =
 
 
 const significado = p => {
-  const palabra = p.replace(puntuactionMarksRegExp, '')
+  const palabra = p.replace(puntuactionMarksRegExp, '').replace(' ', '')
   if (diccionario[palabra] && diccionario[palabra][0]) {
     return (
       <Content padder>

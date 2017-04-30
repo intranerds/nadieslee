@@ -12,6 +12,8 @@ import {
   Left, Right, Body, Icon
 } from 'native-base'
 
+import Modal from '../Modal'
+
 class TextoScreen extends Component {
   render() {
     const { texto } = this.props
@@ -26,6 +28,7 @@ class TextoScreen extends Component {
             </CardItem>
           </Card>
         </Content>
+        <Modal />
       </Container>
     )
   }
@@ -33,7 +36,7 @@ class TextoScreen extends Component {
 
 // wraps dispatch to create nicer functions to call within our component
 const mapDispatchToProps = (dispatch) => ({
-  startup: () => dispatch(StartupActions.startup())
+  startup: () => dispatch(StartupActions.startup()),
 })
 
 export default connect(null, mapDispatchToProps)(TextoScreen)

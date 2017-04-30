@@ -1,4 +1,4 @@
-package com.nadieslee;
+package io.intranerds.nadieslee;
 
 import com.facebook.react.ReactActivity;
 

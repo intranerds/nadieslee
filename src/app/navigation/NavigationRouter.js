@@ -5,9 +5,8 @@ import NavigationDrawer from './NavigationDrawer'
 
 // screens identified by the router
 import LaunchScreen from '../containers/LaunchScreen'
-import ListviewExample from '../containers/ListviewExample'
-import TextoScreen from '../containers/TextoScreen'
-import CardExample from '../containers/CardExample'
+import IndiceScreen from '../containers/IndiceScreen'
+import AboutUsScreen from '../containers/AboutUsScreen'
 
 
 /* **************************
@@ -20,8 +19,8 @@ class NavigationRouter extends Component {
       <Router>
         <Scene key='drawer' component={NavigationDrawer} open={false}>
           <Scene key='launchScreen' component={LaunchScreen} title='LaunchScreen' initial />
-          <Scene key='paginaEjemplo' component={TextoScreen}/>
-          <Scene key='cardExample' component={CardExample}/>
+          <Scene key='indiceScreen' component={IndiceScreen}/>
+          <Scene key='aboutUsScreen' component={AboutUsScreen}/>
         </Scene>
       </Router>
     )

@@ -42,16 +42,6 @@ export default {
   component: require("./el-diablo-de-la-botella.js").default,
 
 },
-"el-experimento-del-doctor-heidegger": {
-  titulo: 'El experimento del doctor Héidegger',
-  autor: 'Nathaniel Hawthorne',
-  anio: 'null',
-  link: 'null',
-  palabrasCount: 3719,
-  image: require('../../images/textos/el-experimento-del-doctor-heidegger.jpg'),
-  component: require("./el-experimento-del-doctor-heidegger.js").default,
-
-},
 "el-monte-de-las-animas": {
   titulo: 'El monte de las ánimas',
   autor: 'Gustavo Adolfo Bécquer',
@@ -62,16 +52,6 @@ export default {
   component: require("./el-monte-de-las-animas.js").default,
 
 },
-"historia-de-un-muerto-contada-por-el-mismo": {
-  titulo: 'Historia de un muerto contada por el mismo',
-  autor: 'Alexandre Dumas, padre',
-  anio: 'null',
-  link: 'null',
-  palabrasCount: 5846,
-  image: require('../../images/textos/historia-de-un-muerto-contada-por-el-mismo.jpg'),
-  component: require("./historia-de-un-muerto-contada-por-el-mismo.js").default,
-
-},
 "luvina": {
   titulo: 'Luvina',
   autor: 'Juan Rulfo',
@@ -80,16 +60,6 @@ export default {
   palabrasCount: 2950,
   image: require('../../images/textos/luvina.jpg'),
   component: require("./luvina.js").default,
-
-},
-"un-extrano-suceso-en-la-vida-de-schalken-el-pintor": {
-  titulo: 'Un extraño suceso en la vida de Schalken, el pintor',
-  autor: 'Joseph Sheridan Le Fanu',
-  anio: '1839',
-  link: 'null',
-  palabrasCount: 9162,
-  image: require('../../images/textos/un-extrano-suceso-en-la-vida-de-schalken-el-pintor.jpg'),
-  component: require("./un-extrano-suceso-en-la-vida-de-schalken-el-pintor.js").default,
 
 },
 "un-medico-rural": {

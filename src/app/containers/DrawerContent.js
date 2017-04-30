@@ -34,6 +34,9 @@ class DrawerContent extends Component {
           <ListItem onPress={()=> {NavigationActions.aboutUsScreen(); this.context.drawer.close()}}>
             <Text style={{fontSize: 20, color: 'white'}}>About Us</Text>
           </ListItem>
+          <ListItem onPress={()=> {NavigationActions.intro(); this.context.drawer.close()}}>
+            <Text style={{fontSize: 20, color: 'white'}}>Intro</Text>
+          </ListItem>
         </Content>
       </View>
     )

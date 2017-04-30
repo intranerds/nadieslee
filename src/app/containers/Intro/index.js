@@ -1,23 +1,11 @@
 import React, { Component } from 'react';
 import { AppRegistry, Alert } from 'react-native';
 import AppIntro from 'react-native-app-intro';
+import { connect } from 'react-redux'
 
-class Intro extends Component {
-  onSkipBtnHandle = (index) => {
-    Alert.alert('Skip');
-    console.log(index);
-  }
-  doneBtnHandle = () => {
-    Alert.alert('Done');
-  }
-  nextBtnHandle = (index) => {
-    Alert.alert('Next');
-    console.log(index);
-  }
-  onSlideChangeHandle = (index, total) => {
-    console.log(index, total);
-  }
+class IntroComponent extends Component {
   render() {
+    const { onSkip, onDone, onNext, onSlide } = this.props
     const pageArray = [{
       title: 'Page 1',
       description: 'Description 1',
@@ -40,17 +28,63 @@ class Intro extends Component {
       backgroundColor: '#a4b602',
       fontColor: '#fff',
       level: 10,
+    }, {
+      title: 'Page 3',
+      description: 'Description 3',
+      img: require('../../images/intro/2.png'),
+      imgStyle: {
+        height: 93 * 2.5,
+        width: 103 * 2.5,
+      },
+      backgroundColor: 'black',
+      fontColor: 'red',
+      level: 10,
     }];
     return (
       <AppIntro
-        onNextBtnClick={this.nextBtnHandle}
-        onDoneBtnClick={this.doneBtnHandle}
-        onSkipBtnClick={this.onSkipBtnHandle}
-        onSlideChange={this.onSlideChangeHandle}
+        skipBtnLabel="Saltar"
+        doneBtnLabel="Listo!"
+        onNextBtnClick={onNext}
+        onDoneBtnClick={onDone}
+        onSkipBtnClick={onSkip}
+        onSlideChange={onSlide}
         pageArray={pageArray}
       />
     );
   }
 }
 
-export default Intro
+const mapStateToProps = (state) => ({
+  palabraMostrando: state.palabraMostrando,
+  fontSize: state.fontSize
+})
+
+const introSkiped = () => {
+  return {
+    type: 'INTRO_SKIPED'
+  }
+}
+
+const introVista = () => {
+  return {
+    type: 'INTRO_VISTA'
+  }
+}
+
+// wraps dispatch to create nicer functions to call within our component
+const mapDispatchToProps = (dispatch) => ({
+  onSkip() {
+    dispatch(dispatch(introSkiped()))
+  },
+  onDone() {
+    dispatch(introVista())
+  },
+  onNext() {
+    
+  },
+  onSlide() {
+    
+  }
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(IntroComponent)

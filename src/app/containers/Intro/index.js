@@ -13,7 +13,7 @@ class IntroComponent extends Component {
         height: 103 * 4,
         width: 103 * 4,
       },
-      backgroundColor: '#ccc',
+      backgroundColor: '#bbb',
       fontColor: 'black',
       level: 10,
     }, {
@@ -23,7 +23,7 @@ class IntroComponent extends Component {
         height: 115 * 4,
         width: 103 * 4,
       },
-      backgroundColor: '#999',
+      backgroundColor: '#666',
       fontColor: 'white',
       level: 10,
     }, {

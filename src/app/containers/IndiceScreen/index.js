@@ -39,10 +39,10 @@ class IndiceScreen extends React.Component {
                     </CardItem>
                     <CardItem>
                         <Body>
-                            <Button transparent textStyle={{color: '#900'}} onPress={() => {
+                            <Button onPress={() => {
                                 NavigationActions.textoScreen({ texto: id})
                               }}>
-                                <Text style={{fontSize: 30*fontSize, height: 30*fontSize, marginTop: 10}}>Leer</Text>
+                                <Text style={{fontSize: 22*fontSize, height: 30*fontSize, marginTop: 10}}>Leer</Text>
                             </Button>
                         </Body>
                     </CardItem>

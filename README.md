@@ -4,8 +4,8 @@
 
 Habilita instalación de fuentes desconocidas
 
-- ![paso 1](https://github.com/merunga/nadieslee/raw/master/imgs/es-howto-1.jpg)
+![paso 1](https://github.com/merunga/nadieslee/raw/master/imgs/es-howto-1.jpg)
 
-- ![paso 1](https://github.com/merunga/nadieslee/raw/master/imgs/es-howto-2.jpg)
+![paso 1](https://github.com/merunga/nadieslee/raw/master/imgs/es-howto-2.jpg)
 
-- ![paso 2](https://github.com/merunga/nadieslee/raw/master/imgs/es-howto-3.jpg)
+![paso 2](https://github.com/merunga/nadieslee/raw/master/imgs/es-howto-3.jpg)

@@ -3,6 +3,8 @@ import cheerio from 'cheerio'
 import _ from 'lodash'
 import sort from 'sort-keys'
 import Yaml from 'yamljs'
+import eachLimit from 'async/eachLimit';
+import sleep from 'sleep'
 
 import { extraerPalabras, puntuactionMarksRegExp } from './textos'
 
@@ -105,18 +107,30 @@ export const buscarSignificado = async palabra => {
 }
 
 export const crear = async () => {
+  function* chunkArray(array,size=1){
+    var clone = array.slice(0);
+    while (clone.length>0) 
+      yield clone.splice(0,size); 
+  };
+  
   const diccionario = {}
-  const significadosPromises = []
   const palabras = await extraerPalabras()
-  _.each(palabras, p => {
-    significadosPromises.push(buscarSignificado(p))
-  })
-  const resultados = await Promise.all(significadosPromises)
-  resultados.forEach(({ palabra, significados }) => {
-    diccionario[palabra] = significados
-  })
+  
+  for(var chunk of chunkArray(palabras, 500)) {
+    const significadosPromises = []
+    _.each(chunk, p => {
+      significadosPromises.push(buscarSignificado(p))
+    })
+    const resultados = await Promise.all(significadosPromises)
+    resultados.forEach(({ palabra, significados }) => {
+      diccionario[palabra] = significados
+    })
+    sleep.msleep(300)
+  }
+  
   return sort(diccionario)
 }
+  
 
 export const leerAsJson = () => {
   const dicc = Yaml.load(process.env.DICCIONARIO_FILEPATH)

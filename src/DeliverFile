@@ -1,0 +1,3 @@
+# iOS
+app_identifier "io.intranerds.nadieslee" # The bundle identifier of your app
+username "me@gmail.com" # Your Apple ID user

@@ -10,7 +10,8 @@ import {
 const style = {
   textDecorationLine: "underline",
   textDecorationStyle: "dotted",
-  textDecorationColor: "#ccc"
+  textDecorationColor: "#ccc",
+  fontSize: 20
 }
 
 export default ({ it }) => {

@@ -5,6 +5,6 @@ import {
 
 export default ({ children }) => {
   return (
-    <Text>{children}</Text>
+    <Text style={{fontSize: 20}}>{children}</Text>
   )
 }

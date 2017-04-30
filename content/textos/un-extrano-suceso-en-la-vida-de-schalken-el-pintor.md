@@ -1,5 +1,5 @@
 ---
-titulo: Un extraño suceso en la vida de Schalken, el pintorUn extraño suceso en la vida de Schalken, el pintor
+titulo: Un extraño suceso en la vida de Schalken, el pintor
 autor: Joseph Sheridan Le Fanu
 anio: 1839
 link:

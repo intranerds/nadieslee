@@ -29,10 +29,10 @@ class DrawerContent extends Component {
         <Image source={Images.logoDark} style={styles.logo} />
         <Content>
           <ListItem onPress={()=> {NavigationActions.indiceScreen();this.context.drawer.close()}}>
-            <Text>Cuentos</Text>
+            <Text style={{fontSize: 20, color: 'white'}}>Cuentos</Text>
           </ListItem>
           <ListItem onPress={()=> {NavigationActions.aboutUsScreen();this.context.drawer.close()}}>
-            <Text>About Us</Text>
+            <Text style={{fontSize: 20, color: 'white'}}>About Us</Text>
           </ListItem>
         </Content>
       </View>

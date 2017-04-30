@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { Alert, TouchableHightlight, View } from 'react-native'
+import { Alert, TouchableHightlight, View, Image } from 'react-native'
 import Header from '../Header'
 import { Card, CardItem, Text, Thumbnail, Container, Content, Title, Button, Left, Right, Body, Icon} from 'native-base'
 // import Icon from 'react-native-vector-icons/Ionicons'
@@ -22,15 +22,18 @@ class IndiceScreen extends React.Component {
                     <CardItem>
                         <Left>
                             <Body>
-                                <Text  style={{fontSize: 24}}>{t.titulo}</Text>
+                                <Text  style={{fontSize: 28}}>{t.titulo}</Text>
                             </Body>
                         </Left>
                     </CardItem>
                     <CardItem>
+                      <Image style={{ resizeMode: 'cover', height: 700,flex: 1 }} source={t.image} />
+                    </CardItem>
+                    <CardItem>
                         <Body>
-                            <Text style={{fontSize: 18}}>{t.autor}</Text>
-                            <Text style={{fontSize: 18, marginTop: 10}}>{t.anio}</Text>
-                            <Text style={{fontSize: 14, marginTop: 10}}>{t.palabrasCount} palabras</Text>
+                            <Text style={{fontSize: 22}}>{t.autor}</Text>
+                            <Text style={{fontSize: 22, marginTop: 10}}>{t.anio}</Text>
+                            <Text style={{fontSize: 18, marginTop: 10}}>{t.palabrasCount} palabras</Text>
                         </Body>
                     </CardItem>
                     <CardItem>
@@ -38,7 +41,7 @@ class IndiceScreen extends React.Component {
                             <Button transparent textStyle={{color: '#900'}} onPress={() => {
                                 NavigationActions.textoScreen({ texto: id})
                               }}>
-                                <Text style={{fontSize: 18, marginTop: 10}}>Leer</Text>
+                                <Text style={{fontSize: 30, marginTop: 10}}>Leer</Text>
                             </Button>
                         </Body>
                     </CardItem>

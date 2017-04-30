@@ -57,6 +57,7 @@ import W from '../../containers/Palabra'`
   anio: '${t.anio}',
   link: '${t.link}',
   palabrasCount: ${t.body.replace('\n\n', '').split(' ').length},
+  image: require('../../images/textos/${id}.jpg'),
   component: require("./${id}.js").default,\n
 },`
   })

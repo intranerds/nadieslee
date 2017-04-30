@@ -1,5 +1,5 @@
 ---
-titulo: Un-médico-rural
+titulo: Un médico rural
 autor: Franz Kafka
 anio: 1919
 link:
